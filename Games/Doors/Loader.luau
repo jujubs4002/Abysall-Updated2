@@ -1,4 +1,4 @@
-local BaseUrl = "https://raw.githubusercontent.com/SEU_USUARIO/Abysall-Updated/refs/heads/main/"
+local BaseUrl = "https://raw.githubusercontent.com/jujubs4002/Abysall-Updated2/main/"
 if game.PlaceId ~= 6516141723 then
     loadstring(game:HttpGet(BaseUrl .. "Games/Doors/Main.luau"))()
 else

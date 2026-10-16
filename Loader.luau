@@ -8,7 +8,7 @@ local GameList = {
   [2440500124] = "Doors"
 }
 
-local BaseUrl = "https://raw.githubusercontent.com/SEU_USUARIO/Abysall-Updated/refs/heads/main/"
+local BaseUrl = "https://raw.githubusercontent.com/jujubs4002/Abysall-Updated2/main/"
 
 local function LoadRemoteModule(Path)
     local Success, Source = pcall(function()

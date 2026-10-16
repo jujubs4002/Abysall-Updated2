@@ -11,7 +11,7 @@ This is a modified source tree based on the original Abysall project.
 - Improved ESP camera refresh, object-pivot error handling, and render-limit clamping.
 
 ## Publish before using the remote loader
-The loader downloads the modules over HTTPS. To run this modified source tree, publish the entire folder to a GitHub repository named `Abysall-Updated`, then replace `SEU_USUARIO` in every `raw.githubusercontent.com/SEU_USUARIO/Abysall-Updated/refs/heads/main/` URL with your GitHub username. Keep the repository paths and filenames unchanged.
+The loader downloads the modules over HTTPS. To run this modified source tree, publish the entire folder to a GitHub repository named `Abysall-Updated`, then the remote URLs are configured for `jujubs4002/Abysall-Updated2`. Keep the repository paths and filenames unchanged.
 
 Until you publish the modified files and update those URLs, the online loader cannot load these local changes. The original project's URL is intentionally not used as a fallback, because that would silently run the unmodified code.
 

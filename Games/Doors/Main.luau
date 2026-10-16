@@ -466,7 +466,7 @@ Globals.DoorsNotify = function(NotifyOptions)
 	end)
 end
 
-Globals.STX = loadstring(game:HttpGet("https://raw.githubusercontent.com/SEU_USUARIO/Abysall-Updated/refs/heads/main/Components/STX.luau"))()
+Globals.STX = loadstring(game:HttpGet("https://raw.githubusercontent.com/jujubs4002/Abysall-Updated2/main/Components/STX.luau"))()
 Functions.Notify = function(Settings)
 	local HiddenContainer = GetHiddenContainer()
 
@@ -2518,7 +2518,7 @@ Groupboxes.Floors_Farming:AddButton({
 	DoubleClick = true,
 	Tooltip = "Automatically farms deaths, joining new runs.",
 	Func = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/SEU_USUARIO/Abysall-Updated/refs/heads/main/Scripts/DeathFarm.luau"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jujubs4002/Abysall-Updated2/main/Scripts/DeathFarm.luau"))()
 	end,
 
 	Disabled = not Functions.CheckCompatability({"fireproximityprompt", "firesignal"}),
@@ -2535,7 +2535,7 @@ Groupboxes.Floors_Farming:AddButton({
             return
         end
         local Success = pcall(Copy, [==[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SEU_USUARIO/Abysall-Updated/refs/heads/main/Scripts/DeathFarm.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jujubs4002/Abysall-Updated2/main/Scripts/DeathFarm.luau"))()
 ]==])
         Library:Notify(Success and "Loadstring has been copied to your clipboard." or "Could not copy the loadstring.")
 	end,
